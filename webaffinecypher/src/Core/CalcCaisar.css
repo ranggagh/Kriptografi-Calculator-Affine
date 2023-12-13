@@ -1,0 +1,96 @@
+/* CalcCaisar.css */
+.container-caesar {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 100px;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .direction-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .direction-label {
+    display: flex; /* Mengubah menjadi flex */
+    align-items: center; /* Menyusun item ke tengah secara vertikal */
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .direction-checkbox {
+    margin-right: 5px;
+  }
+  
+  .btn-container-caesar {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-encrypt {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  
+  .btn-decrypt {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+  }
+  
+  .btn-clear {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  .output-caesar {
+    margin-top: 20px;
+  }
+  
+  .output-item-caesar {
+    margin-top: 10px;
+  }
+  
+  .error-caesar {
+    color: red;
+  }
+  
